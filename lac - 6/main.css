@@ -1,0 +1,30 @@
+h1{
+    color: red; 
+}
+#subheading{
+    color: violet;
+}
+.content{
+    color: blue;
+    height: 500px;
+    width: 60%;
+    /*color name or hex code or RGB */
+    /*border: 2px solid rgb(red, green, blue)*/
+    /*border: 2px solid rgba(red, green, blue, 0.8)*/
+    /*border: 2px solid #ff6347*/
+    /*border: 2px solid hsl(hue, saturation, lightness)*/
+    border: 2px solid red;
+    border-top: 4px solid red;
+    border-bottom: 4px solid blue;
+    border-right: 4px solid green;
+    border-left: 4px solid yellowgreen;
+    border-radius:50px ;
+    /*border: 3px dashed blue */
+    /* background image*/
+    background-image:url(./1095_4x3.avif) ;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    padding: 50px;
+
+}
