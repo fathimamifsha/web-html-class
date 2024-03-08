@@ -1,0 +1,51 @@
+ul.list1 {
+    list-style-type:square ;
+}
+ol.list2 {
+    list-style-type: lower-roman;
+}
+.customers {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 50%;
+    display: block;
+}
+.customers th, .customers td {
+    border: 1px solid green;
+    padding: 10px;
+    
+}
+.customers th {
+    padding-top:12px ;
+    text-align: left;
+    background-color: red;
+    color: white;
+}
+.customers tr:nth-child(even) {
+    background-color: lightgray;
+
+}
+.position {
+    display: block;
+    padding: 20px;
+    background-color: aquamarine;
+    width: 200px;
+    position: relative;
+    right: 0;
+    opacity: 0.2;
+}
+.flex-box {
+    background-color: brown;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.flex-box .box 1 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
